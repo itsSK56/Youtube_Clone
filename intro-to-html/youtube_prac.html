@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <title>Youtube.com Clone</title>
+        <style>
+            p
+            {
+                font-family: Roboto, Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .thumbnail
+            {
+                width: 300px;
+                display:block;
+                /*height: 600px;
+                object-fit: contain;
+                object-position: top;
+                border-width: 2px;
+                border-style: solid;
+                border-color: red;*/
+            }
+            .video-title
+            {
+                margin-top: 0;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 20px;
+                margin-bottom: 12px;
+            }
+            .search-bar
+            {
+                display: block;
+            }
+            .video-author,
+            .video-stats
+            {
+                font-size: 12px;
+                color: rgb(37, 36, 36);
+            }
+            .video-author
+            {
+                margin-bottom: 4px;
+            }
+            /*.div-ex
+            {
+                display: inline-block;
+            }*/
+            .video-preview
+            {
+                width: 300px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 15px;
+            }
+            .channel-picture
+            {
+                display: inline-block;
+                width: 50px;
+                vertical-align: top;
+            }
+            .video-info
+            {
+                display: inline-block;
+                width: 230px;
+            }
+            .profile-picture
+            {
+                width: 40px;
+                border-radius: 30px;
+            }
+            .thumbnail-row
+            {
+                margin-bottom: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="text" placeholder="Search" class="search-bar">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img src="thumbnails/thumbnail.webp" class="thumbnail"></div>
+            <div>
+                <div class="channel-picture">
+                    <img src="CHANNEL-PIC/hybe.jpg" class="profile-picture">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">정국 (Jung Kook) 'Standing Next to You' Official MV</p>
+                    <p class="video-author">Latto, Jungkook, Jack Harlow and more</p>
+                    <p class="video-stats">148M views &#x2022; 10 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <img src="thumbnails/t1.webp" class="thumbnail">
+            <p class="video-title">Jungkook Answers 5 Questions About His Routine</p>
+            <p class="video-author">VOGUE India &#10004; 
+            </p>
+            <p class="video-stats">
+                1.2M views &#x2022; 9 months ago</p>
+              
+        </div>
+        <!--<input type="checkbox">-->
+        <!--<div class="div-ex">this is division</div>-->
+    </body>
+</html>
